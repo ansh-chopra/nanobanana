@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-400 via-orange-500 to-pink-500">
@@ -27,7 +25,7 @@ export default function Home() {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            The revolutionary <span className="font-bold text-yellow-200">zero billion parameter</span> AI that's changing everything. 
+            The revolutionary <span className="font-bold text-yellow-200">zero billion parameter</span> AI that&apos;s changing everything. 
             Smaller than small, yet infinitely powerful.
           </p>
 
@@ -75,7 +73,7 @@ export default function Home() {
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-xl font-bold text-white mb-4">Lightning Fast</h3>
               <p className="text-white/80">
-                With zero parameters, we're infinitely fast. Literally instantaneous responses.
+                With zero parameters, we&apos;re infinitely fast. Literally instantaneous responses.
               </p>
             </div>
             
@@ -119,12 +117,12 @@ export default function Home() {
           <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-lg p-8 rounded-2xl">
             <p className="text-lg text-white/90 mb-6">
               In a world obsessed with bigger models, more parameters, and endless complexity, 
-              Nano Banana AI dares to go the other direction. We've achieved the impossible: 
+              Nano Banana AI dares to go the other direction. We&apos;ve achieved the impossible: 
               <span className="font-bold text-yellow-200"> artificial intelligence with zero parameters</span>.
             </p>
             <p className="text-lg text-white/90 mb-6">
               Like the legendary image editing models that changed the world, Nano Banana AI 
-              represents a paradigm shift. But instead of billions of parameters, we've mastered 
+              represents a paradigm shift. But instead of billions of parameters, we&apos;ve mastered 
               the art of <span className="font-bold text-yellow-200">computational minimalism</span>.
             </p>
             <p className="text-lg text-white/90">
