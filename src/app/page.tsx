@@ -5,7 +5,7 @@ export default function Home() {
       <nav className="flex justify-between items-center p-6 bg-white/10 backdrop-blur-lg">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-yellow-400 rounded-full"></div>
-          <span className="text-white text-xl font-bold">Nano Banana AI</span>
+          <span className="text-white text-xl font-bold">ImageGPT AI</span>
         </div>
         <div className="hidden md:flex space-x-6 text-white">
           <a href="#features" className="hover:text-yellow-200 transition">Features</a>
@@ -18,20 +18,20 @@ export default function Home() {
       <div className="container mx-auto px-6 py-20">
         <div className="text-center">
           <h1 className="text-6xl md:text-8xl font-extrabold text-white mb-6">
-            Nano Banana
+            ImageGPT
             <span className="block bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
-              AI
+              AI Photo Editor
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            The revolutionary <span className="font-bold text-yellow-200">zero billion parameter</span> AI that&apos;s changing everything. 
-            Smaller than small, yet infinitely powerful.
+            Create or edit images with a single chat prompt. <span className="font-bold text-yellow-200">Swap outfits, remove objects, add effects</span> - fast and fun. 
+            Revolutionary AI-powered photo editing made simple.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center mb-16">
             <button className="px-8 py-4 bg-white text-orange-600 font-bold rounded-full hover:bg-yellow-100 transition transform hover:scale-105">
-              Try Nano Banana AI
+              Try ImageGPT AI
             </button>
             <button className="px-8 py-4 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition">
               Learn More
@@ -41,16 +41,16 @@ export default function Home() {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
             <div className="bg-white/10 backdrop-blur-lg p-6 rounded-2xl">
-              <div className="text-4xl font-bold text-yellow-300 mb-2">0B</div>
-              <div className="text-white">Parameters</div>
+              <div className="text-4xl font-bold text-yellow-300 mb-2">1</div>
+              <div className="text-white">Chat Prompt</div>
             </div>
             <div className="bg-white/10 backdrop-blur-lg p-6 rounded-2xl">
               <div className="text-4xl font-bold text-yellow-300 mb-2">∞</div>
-              <div className="text-white">Possibilities</div>
+              <div className="text-white">Creative Edits</div>
             </div>
             <div className="bg-white/10 backdrop-blur-lg p-6 rounded-2xl">
-              <div className="text-4xl font-bold text-yellow-300 mb-2">🍌</div>
-              <div className="text-white">Banana Factor</div>
+              <div className="text-4xl font-bold text-yellow-300 mb-2">🎨</div>
+              <div className="text-white">AI Magic</div>
             </div>
           </div>
         </div>
@@ -63,9 +63,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl hover:bg-white/20 transition">
               <div className="text-4xl mb-4">🎨</div>
-              <h3 className="text-xl font-bold text-white mb-4">Image Editing</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Chat-Based Editing</h3>
               <p className="text-white/80">
-                Revolutionary image editing with zero parameters. Less is more, more is less.
+                Simply describe what you want to change. Our AI understands and transforms your images instantly.
               </p>
             </div>
             
@@ -73,15 +73,15 @@ export default function Home() {
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-xl font-bold text-white mb-4">Lightning Fast</h3>
               <p className="text-white/80">
-                With zero parameters, we&apos;re infinitely fast. Literally instantaneous responses.
+                Advanced AI processing delivers your edited images in seconds. No waiting, just creating.
               </p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl hover:bg-white/20 transition">
               <div className="text-4xl mb-4">🧠</div>
-              <h3 className="text-xl font-bold text-white mb-4">Ultra Intelligent</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Smart Understanding</h3>
               <p className="text-white/80">
-                Zero parameters means infinite wisdom. The paradox of AI enlightenment.
+                Our AI understands natural language and context to make exactly the edits you envision.
               </p>
             </div>
             
@@ -89,23 +89,23 @@ export default function Home() {
               <div className="text-4xl mb-4">🌱</div>
               <h3 className="text-xl font-bold text-white mb-4">Eco-Friendly</h3>
               <p className="text-white/80">
-                Zero parameters = zero energy consumption. Save the planet with Nano Banana AI.
+                AI-powered editing with minimal energy consumption. Edit responsibly with ImageGPT AI.
               </p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl hover:bg-white/20 transition">
               <div className="text-4xl mb-4">💰</div>
-              <h3 className="text-xl font-bold text-white mb-4">Free Forever</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Flexible Pricing</h3>
               <p className="text-white/80">
-                Zero parameters, zero cost. The economics of nothingness are beautiful.
+                Start free with basic edits. Upgrade to unlimited creative possibilities for just $6.99/week.
               </p>
             </div>
             
             <div className="bg-white/10 backdrop-blur-lg p-8 rounded-2xl hover:bg-white/20 transition">
               <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-xl font-bold text-white mb-4">Quantum Ready</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Multi-Platform</h3>
               <p className="text-white/80">
-                Prepared for the quantum future with our zero-parameter quantum entanglement.
+                Available on iPhone, iPad, Mac, and Apple Vision Pro. Edit anywhere, anytime.
               </p>
             </div>
           </div>
@@ -113,29 +113,29 @@ export default function Home() {
 
         {/* About Section */}
         <div id="about" className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-white mb-8">About Nano Banana AI</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">About ImageGPT AI Photo Editor</h2>
           <div className="max-w-4xl mx-auto bg-white/10 backdrop-blur-lg p-8 rounded-2xl">
             <p className="text-lg text-white/90 mb-6">
-              In a world obsessed with bigger models, more parameters, and endless complexity, 
-              Nano Banana AI dares to go the other direction. We&apos;ve achieved the impossible: 
-              <span className="font-bold text-yellow-200"> artificial intelligence with zero parameters</span>.
+              In a world of complex photo editing software with steep learning curves, 
+              ImageGPT AI dares to simplify everything. We&apos;ve achieved the intuitive: 
+              <span className="font-bold text-yellow-200"> AI photo editing through simple chat prompts</span>.
             </p>
             <p className="text-lg text-white/90 mb-6">
-              Like the legendary image editing models that changed the world, Nano Banana AI 
-              represents a paradigm shift. But instead of billions of parameters, we&apos;ve mastered 
-              the art of <span className="font-bold text-yellow-200">computational minimalism</span>.
+              Like the legendary photo editing apps that changed creativity, ImageGPT AI 
+              represents a paradigm shift. Instead of complex tools and menus, we&apos;ve mastered 
+              the art of <span className="font-bold text-yellow-200">conversational photo editing</span>.
             </p>
             <p className="text-lg text-white/90">
-              Join the revolution. Experience the power of nothing. Embrace the banana.
+              Join the revolution. Experience the power of AI. Create stunning visuals.
             </p>
           </div>
         </div>
 
         {/* CTA Section */}
         <div className="text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready to Go Nano?</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Ready to Create?</h2>
           <button className="px-12 py-6 bg-yellow-400 text-orange-900 font-bold text-xl rounded-full hover:bg-yellow-300 transition transform hover:scale-105">
-            Start Your Nano Journey
+            Start Editing with AI
           </button>
         </div>
       </div>
@@ -143,7 +143,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-white/5 backdrop-blur-lg p-8 mt-20">
         <div className="container mx-auto text-center text-white/70">
-          <p>&copy; 2024 Nano Banana AI. All rights reserved. Zero parameters, infinite possibilities.</p>
+          <p>&copy; 2024 ImageGPT AI Photo Editor. All rights reserved. Chat prompts, infinite creativity.</p>
         </div>
       </footer>
     </div>
